@@ -130,6 +130,7 @@ dmypy.json
 
 # vscode
 .vscode/
+.history/
 
 # data
 taobao_persona.csv
