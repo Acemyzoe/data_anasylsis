@@ -3,8 +3,9 @@ import pandas as pd
 import gc
 import warnings
 warnings.filterwarnings('ignore')
-from memory_profiler import profile
+from memory_profiler import profile # 内存监控
 
+"内存监控"
 @profile
 def main():
     # 导入数据集
