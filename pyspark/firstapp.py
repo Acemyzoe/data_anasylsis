@@ -8,3 +8,4 @@ numAs = logData.filter(lambda s: 'a' in s).count()
 print("Lines with a: %i" % (numAs))
 
 print(logData.persist().is_cached)
+print(logData.getStorageLevel())
